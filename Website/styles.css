@@ -97,7 +97,7 @@ div.row{
 
 @media(max-width: 767px){
 	#footer {
-   position:fixed;
+   position:relative;
    left:0px;
    bottom:0px;
 
@@ -105,7 +105,9 @@ div.row{
    background:rgba(0%,0%,0%,80%);
    padding-top: 15px;
    padding-bottom: 30px;
-   height: 25vh;
+   height: 20vh;
+   margin-top: -100px
+
 
 }
 }
