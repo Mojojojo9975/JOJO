@@ -1,3 +1,9 @@
+h1{
+	font-family: cursive;
+	color: #7B2EBF;
+	font-weight:bold;
+
+}
 body{
 	font-size: 16px;
 	color: grey;
@@ -19,15 +25,6 @@ h2{
 
 
 
-#divcol{
-	
-	padding: auto;
-	margin: auto;
-	margin-top: 60px;
-	padding: 70px;
-	border-radius: 25px
-	
-}
 
 p{
 	color: black;
@@ -55,16 +52,14 @@ p{
 
 
 #footer {
-   position:relative;
-   left:0px;
-   bottom:0px;
-
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
    width:100%;
    background:rgba(0%,0%,0%,80%);
    padding-top: 15px;
    padding-bottom: 30px;
    height: 20vh;
-   margin-top: -100px
 
 }
 
@@ -93,35 +88,52 @@ div.row{
 	section{
 		font-size: 0.8em;
 	}
+
+	#resize{
+		font-size: 2em;
+	}
 }
 
 @media(max-width: 767px){
 	#footer {
-   position:relative;
-   left:0px;
-   bottom:0px;
-
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
    width:100%;
    background:rgba(0%,0%,0%,80%);
    padding-top: 15px;
    padding-bottom: 30px;
-   height: 20vh;
-   margin-top: -100px
-
+   height: 25vh;
 
 }
+#main{
+	padding-bottom: 185px;
+	margin-top: 60px;
 }
+
+}
+
+
+
 
 @media(max-width: 500px){
-	#divcol{
-	
-	padding: auto;
-	margin: auto;
-	margin-top: 50px;
-	padding: 70px;
-	border-radius: 25px
-	
+	#main{
+	padding-bottom: 190px;
+	padding-top: 60px;}
+
+	#footer {
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
+   width:100%;
+   background:rgba(0%,0%,0%,80%);
+   padding-top: 7px;
+   padding-bottom: 40px;
+   height: 24vh;
+
 }
+}
+	
 
 }
 
@@ -130,6 +142,7 @@ div.row{
 }
 
 #main{
-	padding-bottom: 97px;
+	padding-bottom: 180px;
+	padding-top: 60px;
 }
 
